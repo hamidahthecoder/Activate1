@@ -1,0 +1,69 @@
+h1{
+    font-size: 20px;
+    align-items:center;
+}
+#hamidah{
+    background-color:rgb(180, 108, 108);
+}
+#para-three{
+    background-image: url(IMG-20240825-WA0014.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+#para-four{
+    background-image: url(Cleaning.jpeg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#para-two{
+    font-size: larger;
+    color: blue;
+}
+form{
+    width: 100%;
+    background-color: blueviolet;
+    opacity: 0.3;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+}
+form input{
+    width: 100px;
+}
+#para-one{
+    background-color: yellow;
+}
+#last{
+    background-color: green;
+    color: white;
+}
+#mother{
+    background-color: blue;
+    opacity: 0.6;
+    color: white;
+    font-size: xx-large;
+}
+#adjanscent h1 + p{
+    background-color: blue;
+    color: white;
+    font: 200;
+}
+a.visited{
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+
+}
+.bg-image{
+    width: 100%;
+    height: 100%;
+    background-image: url("DSC_0259.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#para-6{
+    margin-top: 25px 50px 75px 100px;
+}

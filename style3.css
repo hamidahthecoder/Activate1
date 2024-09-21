@@ -1,0 +1,159 @@
+#p-dotted{
+    border-style: dotted solid;
+    border-width: 5px;
+    border-color: blueviolet;
+}
+#p-dashed{
+    border-style: dashed;
+}
+#p-solid{
+    border-style: solid;
+    border-width: medium;
+    border-color: blue;
+    width: 50%;
+}
+#p-solid1{
+    border-style: solid;
+    border-top-style: dotted;
+    border-bottom-style: solid;
+    border-right-style: dashed;
+    border-left-style: dashed;
+}
+#p-solid2{
+    border-left: solid red 4px;
+    background-color: lightblue;
+}
+#p-solid3{
+    border-bottom: solid red 5px;
+}
+#p-double{
+    border-style: double;
+}
+#p-groove{
+    border-style: groove;
+    border-width: 10px;
+    border-color: red blue green;
+}
+#p-ridge{
+    border: ridge red 6px;
+}
+#p-inset{
+    border-style: inset;
+}
+#p-outset{
+    border-style: outset;
+}
+#p-none{
+    border-style: none;
+}
+#p-hidden{
+    border-style: hidden;
+}
+#p-mix{
+    border-style: dotted dashed solid double;
+}
+#p-round1{
+    border: 2px solid red;
+}
+#p-round2{
+    border: 2px solid red;
+    border-radius: 4px;
+}
+#p-round3{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+#p-round4{
+    border:  2px solid red;
+    border-radius: 10px;
+}
+#para-2{
+    margin: auto;
+    width: 300px;
+    background-color: lightblue;
+    padding: 50px 30px 50px 30px;
+    box-sizing: border-box;
+    outline-style: ridge;
+    outline: thin solid red;
+    outline-offset: 10px;
+}
+#h-1{
+    text-align: center;
+}
+#p-1{
+    text-align: justify;
+    width: 200px;
+    height: 100px;
+}
+#p-3{
+    text-align: left;
+}
+#p-4{
+    direction: rtl;
+}
+#b-1{
+    unicode-bidi: bidi-override;
+}
+#h-2{
+    text-align: center;
+}
+#h-3{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px;
+}
+#h-4{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+}
+#h-5{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+}
+#h-6{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 5px;
+}
+#img-1{
+    vertical-align: baseline;
+}
+#img-2{
+    vertical-align: text-top;
+}
+#dec-1{
+    text-decoration: overline;
+    text-decoration-color: red;
+}
+#dec-2{
+    text-decoration: line-through;
+    text-decoration-color: brown;
+}
+#dec-3{
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+#dec-4{
+    text-decoration: overline underline;
+    text-decoration-color: purple;
+}
+#uppercase{
+    text-transform: uppercase;
+}
+#lowercase{
+    text-transform: lowercase;
+}
+#capitalized{
+    text-transform: capitalize;
+}
+#effect-1{
+    text-shadow: 2px 2px;
+}
+#effect-2{
+    text-shadow: 2px 2px 4px purple;
+}
+#link-1{
+    color: lightblue;
+}
